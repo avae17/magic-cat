@@ -1,11 +1,82 @@
-body {
+/* body {
   text-align: center 
- 
 }
 
 h1{
-  text-align: center;
-  
+  text-align: center;  
+} */
+
+#beach{
+  position:absolute;
+ z-index: 1;
 }
 
+fall.jpg{
+   position:absolute;
+z-index: 1;  
+}
 
+flowers.jpg {
+   position:absolute;
+  z-index: 1;
+}
+
+winter.gif {
+   position:absolute;
+  z-index: 1;
+}
+
+fashionglasses.jpg {
+   position:absolute;
+  z-index: 3;
+}
+
+hat.jpg {
+   position:absolute;
+  z-index: 3;
+}
+
+nerdglasses.jpg{
+   position:absolute;
+  z-index:3;
+}
+partyhat.jpg{
+   position:absolute;
+  z-index:3;
+}
+cat1.jpg{
+   position:absolute;
+  z-index:2;
+}
+cat2.jpg{
+   position:absolute;
+  z-index:2;
+}
+cat3.jpg{
+   position:absolute;
+  z-index:2;
+}
+cat4.jpg{
+   position:absolute;
+  z-index:2;
+}
+border4.jpg{
+   position:absolute;
+  z-index:5;
+}
+borderbirthday.jpg{
+   position:absolute;
+  z-index:5;
+}
+bordervalentine.jpg{
+   position:absolute;
+  z-index:5;
+}
+lights.jpg{
+   position:absolute;
+  z-index:5;
+}
+polaroid.jpg{
+   position:absolute;
+  z-index:5;
+}
