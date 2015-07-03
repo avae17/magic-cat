@@ -1,15 +1,14 @@
 <!doctype HTML>
 <html>
   <head><title> Magic Cat</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
       </head>
     <body>
-      <h1> Success!</h1>
 
-      <img src="<%= @url_hash[:cat]%>">
-      <img src="<%= @url_hash[:background]%>">
-      <img src="<%= @url_hash[:accessory]%>">
-      <img src="<%= @url_hash[:border]%>">
+      <img src="<%= @url_hash[:cat]%>" id="cat">
+      <img src="<%= @url_hash[:background]%>" id="bg">
+      <img src="<%= @url_hash[:accessory]%>" id="accessory">
+      <img src="<%= @url_hash[:border]%>" id="border">
 
     </body>
 </html>

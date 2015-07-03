@@ -5,78 +5,182 @@
 h1{
   text-align: center;  
 } */
-
-#beach{
+#bg {
   position:absolute;
+  height: 600px;
+  width:600px;
+  top: 0px;
+  left: 0px;   
  z-index: 1;
 }
 
-fall.jpg{
+#cat {
    position:absolute;
+  height: 500px;
+  width:500px;
+  top:100px;
+  left:100px;
+  z-index:2;
+}
+
+#accessory {
+  position:absolute;
+  height: 100px;
+  width:100px;
+  top:300px;
+  left:320px;
+  z-index: 3;
+}
+
+#border {
+  position:absolute;
+  height: 600px;
+  width:600px;
+  top:0px;
+  left:0px;
+  z-index:5;
+}
+
+
+/* #beach{
+  position:absolute;
+  height: 1000;
+  width:1000;
+  top: 120px;
+  left: 120px;   
+ z-index: 1;
+}
+
+#fall{
+   position:absolute;
+  height: 1000;
+  width:1000;
+  top:120px;
+  left:120px;
 z-index: 1;  
 }
 
-flowers.jpg {
+#flowers {
    position:absolute;
+  height: 1000;
+  width:1000;
+  top:120px;
+  left:120px;
   z-index: 1;
 }
 
-winter.gif {
+#winter{
    position:absolute;
+  height: 1000;
+  width:1000;
+  top:120px;
+  left:120px;
   z-index: 1;
-}
-
-fashionglasses.jpg {
+} */
+/* 
+#fashionglasses {
    position:absolute;
+  height: 1000;
+  width:1000;
+  top:120px;
+  left:120px;
   z-index: 3;
 }
 
-hat.jpg {
+#hat{
    position:absolute;
+  height: 1000;
+  width:1000;
+  top:120px;
+  left:120px;
   z-index: 3;
 }
 
-nerdglasses.jpg{
+#nerdglasses{
    position:absolute;
+  height: 1000;
+  width:1000;
+  top:120px;
+  left:120px;
   z-index:3;
 }
-partyhat.jpg{
+#partyhat{
    position:absolute;
+  height: 1000;
+  width:1000;
+  top:120px;
+  left:120px;
   z-index:3;
 }
-cat1.jpg{
+#cat1{
    position:absolute;
+  height: 1000;
+  width:1000;
+  top:120px;
+  left:120px;
   z-index:2;
 }
-cat2.jpg{
+#cat2{
    position:absolute;
+  height: 1000;
+  width:1000;
+  top:120px;
+  left:120px;
   z-index:2;
 }
-cat3.jpg{
+#cat3{
    position:absolute;
+  height: 1000;
+  width:1000;
+  top:120px;
+  left:120px;
   z-index:2;
 }
-cat4.jpg{
-   position:absolute;
+#cat4{
+  position:absolute;
+  height: 1000;
+  width:1000;
+  top:120px;
+  left:120px;
   z-index:2;
 }
-border4.jpg{
+#border4{
    position:absolute;
+  height: 1000;
+  width:1000;
+  top:120px;
+  left:120px;
   z-index:5;
 }
-borderbirthday.jpg{
+#borderbirthday{
    position:absolute;
+  height: 1000;
+  width:1000;
+  top:120px;
+  left:120px;
   z-index:5;
 }
-bordervalentine.jpg{
+#bordervalentine{
    position:absolute;
+  height: 1000;
+  width:1000;
+  top:120px;
+  left:120px;
   z-index:5;
 }
-lights.jpg{
+#lights{
    position:absolute;
+  height: 1000;
+  width:1000;
+  top:120px;
+  left:120px;
   z-index:5;
 }
-polaroid.jpg{
+#polaroid{
    position:absolute;
+  height: 1000;
+  width:1000;
+  top:120px;
+  left:120px;
   z-index:5;
-}
+} */
