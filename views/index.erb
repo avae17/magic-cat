@@ -2,10 +2,65 @@
 <html>
   <head><title> Magic Cat</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
     <body>
     <h1 id = "header1"> Design your own cat greeting card!</h1>
-      <img src = <%= @image_url %>
-<div id = "scrollbox1" style="border:1px solid black;width:500px;height:250px;overflow-y:hidden;overflow-x:scroll;">
+      
+<form method="post" action="/final">
+  <div id = "catquestion">
+  <h1> What type of cat do you want?</h1>
+<input type="radio" name="catquestion" value="cat1.jpg" checked>Short Haired Cat
+<br>
+<input type="radio" name="catquestion" value="cat2.jpg" >Long Haired Cat
+<br>
+<input type="radio" name="catquestion" value="cat3.jpg" >Middle Haired Cat
+<br>
+<input type="radio" name="catquestion" value="cat4.jpg" >Pink Haired Cat
+<br>
+  </div>
+    
+  <div id = "catbackground">
+  <h1> What type of background do you want?</h1>
+<input type="radio" name="catbackground" value="beach.jpg" checked>Beach
+<br>
+<input type="radio" name="catbackground" value="flowers.jpg" >Flowers
+<br>
+<input type="radio" name="catbackground" value="winter.gif" >Winter
+<br>
+<input type="radio" name="catbackground" value="fall.jpg" >Fall
+<br>
+  </div>
+
+  <div id = "cataccessory">
+  <h1> Which accessory do you want?</h1>
+<input type="radio" name="cataccessory" value="fashionglasses.jpg" checked>Fashion Glasses
+<br>
+<input type="radio" name="cataccessory" value="hat.jpg" >Hat
+<br>
+<input type="radio" name="cataccessory" value="nerdglasses.jpg" >Nerd Glasses
+<br>
+<input type="radio" name="cataccessory" value="partyhat.jpg" >Party Hat
+<br>
+  </div>
+
+
+  <div id = "catborder">
+  <h1> Which border do you want?</h1>
+<input type="radio" name="catborder" value="border4.jpg" checked>Border 1
+<br>
+<input type="radio" name="catborder" value="borderbirthday.jpg" >Birthday Border
+<br>
+<input type="radio" name="catborder" value="bordervalentine.jpg" >Valentine Border
+<br>
+<input type="radio" name="catborder" value="lights.jpg" >Lights
+<br>
+<input type="radio" name="catborder" value="polaroid.jpg" >Polaroid
+<br>
+  </div>
+<br>
+<input type="submit" value="Submit">
+      </form>
+<!-- <div id = "scrollbox1" style="border:1px solid black;width:500px;height:250px;overflow-y:hidden;overflow-x:scroll;">
 <p style="width:250%;">
 <a href="https://gabrielquotes.files.wordpress.com/2013/06/summer-beach1.jpg" target="main"> <img id = "summer" src = "https://gabrielquotes.files.wordpress.com/2013/06/summer-beach1.jpg" height = 200em width = 300em></a>
 <a href = "http://i.imgur.com/viKWXrh.gif" target= "main"> <img id = "winter" src = "http://i.imgur.com/viKWXrh.gif" height = 200em width = 300em></a>
@@ -13,6 +68,9 @@
 <img id = "fall" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLhf_aAXz3k2JojAFc4V7klCFqgm_8IWt4SRW4jA5Fs6gaPGxyrA" height = 200em width = 300em>
 </p>
 </div>
+<form action="demo_form.asp">
+<input type="image" src="submit.gif" alt="Submit" width="48" height="48">
+</form>
       <div id = "scrollbox2" style="border:1px solid black;width:500px;height:250px;overflow-y:hidden;overflow-x:scroll;">
 <p style="width:250%;">
 <img id = "cat1" src = "http://www.sterlingshelter.org/wp-content/uploads/cute-cat-picture-no-background.gif" height = 200em width = 300em>
@@ -36,7 +94,6 @@
 <img id = "spring" src = "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTzJoHWXBK_EMoAdA1e6VAH5JLfB5koVnwy7l-IjjGKX-FDSZTDgw" height = 200em width = 300em>
 <img id = "fall" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLhf_aAXz3k2JojAFc4V7klCFqgm_8IWt4SRW4jA5Fs6gaPGxyrA" height = 200em width = 300em>
 </p>
-</div>     
+</div>      -->
     </body>
-  </head>
 </html>
